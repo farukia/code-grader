@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Montserrat:wght@300;400&display=swap');
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #004369;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+table {
+  margin: 20px;
+}
+
+th {
+  padding: 0 5px;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid;
+  background-color: white;
+}
+
+td {
+  width: 50px;
+}
+
+input {
+  width: 75px;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size:15px;
+  transition-duration: 0.2s;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  color: #004369;
+    /** #1a616a; **/
+  
+}
+
+button:hover {
+  transition-duration: 0.2s;
+  background-color: #d6e6ff;
+  cursor:pointer;
+}
+
+h2 {
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+}
